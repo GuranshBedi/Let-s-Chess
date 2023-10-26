@@ -1,0 +1,271 @@
+* {
+  font-family: "Akshar";
+  margin: 0;
+}
+body {
+  background-color: black;
+}
+.homepage-container {
+  background-image: url(https://images.unsplash.com/photo-1586165368502-1bad197a6461?auto=format&fit=crop&q=80&w=1000&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8N3x8Y2hlc3N8ZW58MHx8MHx8fDA%3D);
+  background-size: cover;
+  height: 47rem;
+}
+.logo{
+  height: 3vw;
+  padding-right: 1.5vw;
+}
+.Homepage {
+  /* background-image: radial-gradient(black,white); */
+  padding: 0.6em 0;
+  overflow: visible;
+}
+.nav {
+  margin-top: 1.5vw;
+  color: white;
+  height: 700px;
+  display: flex;
+  justify-content: space-around;
+  text-align: center;
+  height: 80px;
+}
+.Heading-container{
+  display: flex;
+}
+.links {
+  padding-left: 4vw;
+  font-size: large;
+}
+.Heading {
+  /* display: flex;
+  justify-content: space-around;
+  align-items: center; */
+  margin-left: 0;
+  margin-top: 2.5vw;
+  font-size: 2rem;
+}
+.line-1 {
+  color: white;
+  margin-left: 30vw;
+}
+.line-2 {
+  margin-left: 42.5vw;
+  margin-top: 1.5vw;
+  color: darkgray;
+  /* text-shadow: -1px 5px white; */
+}
+.description {
+  color: white;
+  flex-wrap: wrap;
+  flex-direction: column;
+  justify-content: center;
+  text-align: justify;
+  margin-top: 2vw;
+  margin-left: 33.5vw;
+}
+.offer-page {
+  margin-top: 24vw;
+  background-color: black;
+  text-align: center;
+}
+.Headline {
+  color: white;
+  font-size: 1.5em;
+}
+.box-container {
+  margin-top: 2vw;
+}
+.boxes {
+  display: flex;
+  flex-wrap: flex;
+}
+.black-box {
+  width: 33.5%;
+  height: 35vh;
+  color: white;
+}
+.white-box {
+  width: 33.5%;
+  height: 35vh;
+  background-color: white;
+}
+.pics {
+  width: 3.5vw;
+  margin-top: 2vw;
+}
+.offer-description {
+  padding-top: 0.7em;
+  text-align: center;
+}
+.course-page {
+  display: block;
+  margin-top: 20vw;
+  background-color: black;
+}
+.button-container {
+  margin-top: 2vw;
+  display: flex;
+  justify-content: center;
+  gap: 2vw;
+}
+.Headline1 {
+  color: white;
+  font-size: 1.5em;
+  text-align: center;
+}
+.pay-button {
+  width: 12em;
+  height: 3em;
+  background-color: white;
+  color: black;
+  font-weight: 700;
+  border-radius: 19px;
+}
+.pay-button:hover {
+  background-color: black;
+  color: white;
+  border: 1px solid white;
+}
+.course-box {
+  height: 50vh;
+  width: 25%;
+  background-color: gray;
+  color: white;
+  margin-right: 4vw;
+  border-top-right-radius: 15px;
+  border-top-left-radius: 15px;
+  border-bottom-right-radius: 15px;
+  border-bottom-left-radius: 15px;
+}
+.box-container2 {
+  margin-top: 2.5vw;
+  padding-left: 1.5vw;
+  display: flex;
+  flex-wrap: flex;
+  justify-content: space-around;
+  margin-left: 2vw;
+}
+h5 {
+  font-size: 1.3rem;
+}
+.course-name {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.2rem;
+}
+.course-name-background {
+  background-color: darkgray;
+  height: 2.5rem;
+  border-top-right-radius: 15px;
+  border-top-left-radius: 15px;
+}
+.course-icon {
+  width: 3em;
+}
+ul {
+  margin-top: 2em;
+  font-size: 1.1rem;
+  font-weight: 100;
+}
+.prices {
+  color: black;
+  font-size: 1.2em;
+  font-weight: 700;
+  margin: 2vw 1.5vw;
+}
+.buy-button {
+  height: 3em;
+  background-color: white;
+  color: black;
+  font-weight: 700;
+  width: 8vw;
+  position: relative;
+  top: 3vw;
+  left: 1vw;
+  border-radius: 19px;
+}
+.buy-button:hover {
+  background-color: black;
+  color: white;
+  border: 1px solid white;
+}
+.chess-skills-page {
+  margin-top: 25vw;
+  background-color: black;
+  color: white;
+}
+.skills-column {
+  margin-top: 5vw;
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+.skills {
+  border: 1px solid white;
+  text-align: center;
+}
+h5 {
+  margin-top: 1.2vw;
+  text-align: center;
+}
+.skills-description {
+  padding-top: 1.1vw;
+}
+.pawn-pic {
+  width: 1.5vw;
+}
+.contact-page {
+  margin-top: 25vw;
+  background-color: black;
+  color: white;
+  justify-content: space-around;
+}
+.contact-pic {
+  width: 30vw;
+  height: 35vh;
+}
+.contact-container {
+  display: flex;
+  text-align: left;
+  justify-content: space-around;
+}
+.input-container {
+  display: block;
+  margin-left: 5vw;
+}
+.contact-pic-container {
+  margin-left: 15vw;
+  margin-top: 7vw;
+}
+input {
+  margin-top: 50px;
+  width: 35vw;
+  height: 5vh;
+  border-radius: 7px;
+  border: 2px solid white;
+  background-color: black;
+  color: white;
+}
+.message {
+  height: 12vw;
+}
+.info {
+  display: flex;
+  margin-top: 100px;
+  color: white;
+  margin-left: 20px;
+  justify-content: space-between;
+}
+.contact {
+  display: flex;
+  margin-top: 15px;
+  padding-right: 10px;
+}
+.info-list {
+  padding-top: 1.5vw;
+  display: flex;
+  flex-direction: column;
+  gap: 1.1vw;
+}
+.info-row1 {
+}
